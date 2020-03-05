@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 5px;
+}
+.first{
+    background-color: rgb(2, 54, 2);
+    text-transform: uppercase;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+.second{
+    background-color: red;
+    text-transform: uppercase;
+    color: yellow;
+    margin-top: 0%;
+    text-align: center;
+}
+.table{
+    padding: 45px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(10, 10, 10, 0.2);
+    border-collapse: collapse;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 900;
+    
+}
+.section{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+}
+
+.spanfoot{
+    color: yellow;
+    text-transform: capitalize;
+}
+.footer{
+    text-transform: capitalize;
+    background-color: rgb(22, 129, 22);
+    border-top: 5px solid yellow;
+    height: 10%;
+}
+td:nth-child(2){
+    border-right: 4px solid darkmagenta;
+    border-collapse: collapse;
+    padding: 8px;
+    margin: 4px;
+}
+td:nth-child(1){
+    border-right: 5px solid darkmagenta;
+    border-collapse: collapse;
+    padding: 8px;
+    margin: 4px;
+}
+th{
+    border-bottom: 5px solid darkmagenta ;
+    padding: 10px;
+    margin: 10px;
+    color: darkmagenta;
+}
+td{
+    padding: 8px;
+}
+.test .s1{
+   padding: 28px 0px;
+   margin: auto;
+}
+.sales{
+background-color: rgb(2, 54, 2);
+width: 50%;
+color: white;
+font-size: 1.2em;
+text-align: justify;
+text-transform: uppercase;
+padding: 0px 100px;
+font-weight: 900;
+}
+.register{
+    background-color: orange;
+    width: 50%;
+    font-family: cursive;
+    padding: 3px;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+    transition: color 2s linear, clip-path 2s ease-out;
+    /*transition: color 2s ease-out;*/
+} 
+
+.register:hover{
+    clip-path: polygon(3% 0%, 0% 90%, 97% 100%, 100% 10%);
+    color: white;
+} 
+
+    
+
+
+.foot{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    clip-path: circle();
+}
+
+.footdiv {
+    width: 60%;
+    height: 20%;
+}
+.img1{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+}
+.img2{
+    background-image: url(img2.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    border: 3px solid orangered;
+    border-radius: 5px;
+}
+#head {
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 85px;
+    margin-left: 80%;
+}
+ .table tbody tr .access{
+    z-index: 999;
+}
