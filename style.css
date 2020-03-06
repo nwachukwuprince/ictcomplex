@@ -146,3 +146,29 @@ font-weight: 900;
  .table tbody tr .access{
     z-index: 999;
 }
+.clear input{
+    font-size: 2em;
+    font-family: cursive;
+    padding: 5px 20px;
+    width: 200px;
+    margin:10px  20px ;
+    height: 60px;
+    color: whitesmoke;
+    border-radius: 10px;
+    background-color: green;
+ /*   box-shadow: 0px 0px 50px rgba(255,255,255,0.7);*/
+   transition: all .5s ease-in;
+   border:none;
+}
+.clear input:hover{
+    
+
+    color: orangered;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 0px 0px 50px rgba(255,255,255,0.7);
+}
+.clear{
+    text-align: center;
+    margin:20px 50px;
+}
